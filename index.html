@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AMO AI – Teachable Machine</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="top">
+    <h1>AMO AI</h1>
+    <p>En enkel AI-hemsida med Teachable Machine</p>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Testa AI</h2>
+      <p>Klicka på knappen för att starta modellen</p>
+
+      <button id="startBtn">Testa AI</button>
+
+      <div id="webcam-container" style="margin-top: 20px;"></div>
+      <div id="label-container" style="margin-top: 15px;"></div>
+    </section>
+  </main>
+
+  <footer>AMO AI</footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
+
+<script src="script.js"></script>
+</body>
+</html>
